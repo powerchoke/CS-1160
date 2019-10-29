@@ -30,17 +30,6 @@ int main()
   // Calculate the scores
   calcScore(score);
 
-//  // For loop to show elements of array 'score' within main()
-//  for (int count = 0; count <= SIZE; count++)
-//  {
-//    cout << score[count] << endl;
-//  }
-
-//  // DEBUG - Show that name was returned to main
-//  cout << "in main, variable 'name' = " << name << endl;
-
-} // End main()
-
 void getContestantName(string &name)
 {
   cout << "Enter the contestant's name: ";
