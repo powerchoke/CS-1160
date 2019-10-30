@@ -29,6 +29,7 @@ int main()
 
   // Calculate the scores
   calcScore(score);
+} // End main()
 
 void getContestantName(string &name)
 {
@@ -47,7 +48,7 @@ double getJudgeData(double score[])
     }
     else
     {
-      cout << "Please enter the score again"
+      cout << "Please enter the score again";
     }
   }
 }
