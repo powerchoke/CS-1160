@@ -41,15 +41,8 @@ double getJudgeData(double score[])
 {
   for (int count = 0; count < SIZE; count++)
   {
-    if (score[count] > 0 && score[count] < 5)
-    {
       cout << "Enter judge #" << (count+1) << "'s score: ";
       cin >> score[count];
-    }
-    else
-    {
-      cout << "Please enter the score again";
-    }
   }
 }
 
